@@ -11,7 +11,10 @@
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=vinivin153&theme=dark&show_icons=true)
 
-
+<h2>
+ 푼 문제수
+ </h2>
+ -20.01.08 ~ 20.01.14 5.6문제
 
 <h2>
  이번주 코딩시간
