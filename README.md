@@ -7,7 +7,7 @@
 - 일주일 20시간 이상 코딩
 
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vinivin153&v=2&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vinivin153&v=2)](https://github.com/anuraghazra/github-readme-stats)
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=vinivin153&theme=dark&show_icons=true)
 
