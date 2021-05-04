@@ -19,7 +19,7 @@
  Coding time by day of the week
   </h2>
 
-<img src="https://wakatime.com/share/@1a096de6-41e0-4f6f-acda-e037d53dcee6/2577936e-071a-4ae6-a26c-974f6b99f316.svg" width="500">
+<img src="https://wakatime.com/share/@vinivin153/b8efcbcb-25bf-46c0-8c76-d263f3f62f32.svg" width="500">
 
 
 <h2>
