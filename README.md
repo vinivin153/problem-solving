@@ -9,6 +9,11 @@
 - Daily coding (except weekend)
 - At least 20hrs per week
 
+<h2>21 Summer break goals</h2>
+
+- Daily coding
+- '이코테'(book) 1 read
+- study to recursion
 
 <h2>Coding time for a week</h2>
 
@@ -21,22 +26,3 @@
 
 <img src="https://wakatime.com/share/@vinivin153/b8efcbcb-25bf-46c0-8c76-d263f3f62f32.svg" width="500">
 
-
-<h2>
- Sloved Problems
-</h2>
- <div>
- <p>-21.01.08 ~ 21.01.14 (5.6)</p>
- <p>-21.01.15 ~ 21.01.21 (?)</p>
- <p>-21.01.22 ~ 21.01.28 (4.2)</p>
- <p>-21.01.29 ~ 21.02.04 (self vacation)</p>
- <p>-21.02.05 ~ 21.02.18 (15.5)</p>
- <p>-21.02.19 ~ 21.02.25 (11)</p>
- <p>-21.02.26 ~ 21.03.05 ( )</p>
- <p>-21.03.18 ~ 21.03.25 (3)</p>
- <p>-21.03.26 ~ 21.04.01 (3)</p>
- <p>-21.04.30 ~ 21.05.06 (5)</p>
- <p>-21.04.14 ~ 21.05.20 (4)</p>
- <p>-21.05.21 ~ 21.05.27 (4)</p>
- <p>-21.05.28 ~ 21.06.03 (3)</p>
-  </div>
