@@ -10,4 +10,15 @@ def isPrime(n):
             print(i)
 
 
+# solution2
+"""
+for i in range(2, MAX+1):
+    if isPrime[i]:
+        prime.append(i)
+        j = i
+        while i*j <= MAX:
+            isPrime[i*j] = False
+            j += 1
+"""
+
 isPrime(120)
