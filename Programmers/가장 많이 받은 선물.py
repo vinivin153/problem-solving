@@ -14,9 +14,6 @@ def solution(friends, gifts):
 
     answer = defaultdict(int)
     for i, j in combinations(friends, 2):
-        if i == j:
-            continue
-
         if glog[i][j] > glog[j][i]:
             answer[i] += 1
         elif glog[i][j] < glog[j][i]:
