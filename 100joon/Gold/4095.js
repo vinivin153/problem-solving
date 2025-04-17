@@ -4,33 +4,47 @@ const input = require('fs')
   .split('\n');
 
 let idx = 0;
+const res = [];
+
 while (true) {
   const [n, m] = input[idx++].split(' ').map(Number);
 
   // 종료조건
   if (n === 0 && m === 0) break;
 
-  const mat = Array.from({ length: n }, () =>
-    input[idx++].split(' ').map(Number)
-  );
-
-  const dp = Array.from({ length: n }, () => Array(m).fill(0));
+  // 메모리 사용량 최적화: 전체 행렬을 미리 생성하지 않고 행별로 처리
   let ans = 0;
+  const dp = new Array(m).fill(0);
+  const prevDp = new Array(m).fill(0);
+
   for (let i = 0; i < n; i++) {
+    const row = input[idx++].split(' ').map(Number);
+    let leftTop = 0;
+
     for (let j = 0; j < m; j++) {
-      if (mat[i][j] === 0) {
-        dp[i][j] = 0;
-        continue;
-      }
+      // 이전 dp[j] 값 저장
+      const temp = dp[j];
 
-      if (0 <= i - 1 && 0 <= j - 1) {
-        dp[i][j] = Math.min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]) + 1;
+      if (row[j] === 0) {
+        dp[j] = 0;
       } else {
-        dp[i][j] = 1;
+        if (i === 0 || j === 0) {
+          dp[j] = 1;
+        } else {
+          dp[j] = Math.min(leftTop, prevDp[j], dp[j - 1]) + 1;
+        }
+        ans = Math.max(ans, dp[j]);
       }
 
-      ans = Math.max(ans, dp[i][j]);
+      // 다음 반복을 위해 leftTop 업데이트
+      leftTop = temp;
+
+      // 이전 행의 값 업데이트
+      prevDp[j] = dp[j];
     }
   }
-  console.log(ans);
+
+  res.push(ans);
 }
+
+console.log(res.join('\n'));
